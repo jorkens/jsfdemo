@@ -50,7 +50,6 @@ public class PersonFormBean implements Serializable {
 		pm.addPerson(person);
 		person = new Person();
 		return "showPersons";
-		//return null;
 	}
 
 	public String deletePerson() {
